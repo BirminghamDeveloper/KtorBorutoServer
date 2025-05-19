@@ -30,4 +30,6 @@ dependencies {
     implementation(libs.koin.ktor)
    // SLF4J Logger
     implementation(libs.koin.logger.slf4j)
+
+    implementation(libs.ktor.server.default.headers)
 }
