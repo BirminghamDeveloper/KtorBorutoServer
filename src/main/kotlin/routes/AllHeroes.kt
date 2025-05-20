@@ -17,13 +17,13 @@ fun Route.getAllHeroes() {
             // Continue processing if successful
         } catch (ex: NumberFormatException) {
             call.respond(
-                HttpStatusCode.BadRequest,
-                ApiResponse(success = false, message = "Only Numbers Allowed here")
+                message=ApiResponse(success = false, message = "Only Numbers Allowed here"),
+                status = HttpStatusCode.BadRequest
             )
         } catch (e: IllegalArgumentException){
             call.respond(
-                HttpStatusCode.NotFound,
-                ApiResponse(success = false, message = "Heroes Not Found.")
+                message = ApiResponse(success = false, message = "Heroes Not Found."),
+                status = HttpStatusCode.NotFound
             )
         }
     }
