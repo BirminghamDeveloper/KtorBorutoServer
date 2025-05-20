@@ -1,6 +1,6 @@
 package com.example.plugins
 
-import io.ktor.http.HttpHeaders
+import io.ktor.http.*
 import io.ktor.server.application.Application
 import io.ktor.server.application.install
 import io.ktor.server.plugins.defaultheaders.DefaultHeaders
