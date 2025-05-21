@@ -10,7 +10,7 @@ import kotlin.test.assertEquals
 class ApplicationTest {
 
     @Test
-    fun testRoot() = testApplication {
+    fun accessRootEndpoint_AssertCorrectInformation() = testApplication {
         application {
             module()
         }

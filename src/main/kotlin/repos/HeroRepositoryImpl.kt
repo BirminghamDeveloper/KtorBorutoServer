@@ -409,7 +409,7 @@ class HeroRepositoryImpl(
         )
     }
 
-    override suspend fun searchHeroes(name: String): ApiResponse {
+    override suspend fun searchHeroes(name: String?): ApiResponse {
         return ApiResponse(
             success = true,
             message = "ok",

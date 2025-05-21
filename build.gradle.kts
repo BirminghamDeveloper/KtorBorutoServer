@@ -32,4 +32,6 @@ dependencies {
     implementation(libs.koin.logger.slf4j)
 
     implementation(libs.ktor.server.default.headers)
+
+    implementation("io.ktor:ktor-server-status-pages:2.3.4") // Match to your Ktor version
 }
