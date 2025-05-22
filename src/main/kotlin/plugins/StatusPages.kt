@@ -23,8 +23,8 @@ fun Application.configureStatusPages(){
         }
         exception<AuthenticationException>{ call, _->
             call.respond(
-                message = "Page not Found",
-                status= HttpStatusCode.NotFound
+                message = "We Caught an Exception",
+                status= HttpStatusCode.OK
             )
         }
     }

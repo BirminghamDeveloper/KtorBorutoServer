@@ -20,9 +20,9 @@ fun Application.configureRouting() {
         searchHeroes()
         configureStatusPages()
 
-        /*get("/test2"){
+        get("/test2"){
             throw AuthenticationException()
-        }*/
+        }
 
         staticResources("/images", "images")
 
