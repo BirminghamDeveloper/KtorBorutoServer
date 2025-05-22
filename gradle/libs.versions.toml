@@ -18,6 +18,7 @@ koin-ktor = { module = "io.insert-koin:koin-ktor", version.ref = "koinKtor" }
 koin-logger-slf4j = { module = "io.insert-koin:koin-logger-slf4j", version.ref = "koinKtor" }
 
 ktor-server-default-headers = { module = "io.ktor:ktor-server-default-headers", version.ref = "ktorVersion" }
+ktor-server-status-pages = { module = "io.ktor:ktor-server-status-pages", version.ref = "ktorVersion"}
 
 
 [plugins]

@@ -33,5 +33,6 @@ dependencies {
 
     implementation(libs.ktor.server.default.headers)
 
-    implementation("io.ktor:ktor-server-status-pages:2.3.4") // Match to your Ktor version
+//    implementation("io.ktor:ktor-server-status-pages:2.3.4") // Match to your Ktor version
+    implementation(libs.ktor.server.status.pages)
 }

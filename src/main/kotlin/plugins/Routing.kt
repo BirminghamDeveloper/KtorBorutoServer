@@ -10,6 +10,7 @@ import plugins.configureStatusPages
 import routes.getAllHeroes
 import routes.root
 import routes.searchHeroes
+import javax.naming.AuthenticationException
 
 
 fun Application.configureRouting() {
