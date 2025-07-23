@@ -40,3 +40,14 @@ If the server starts successfully, you'll see the following output:
 2024-12-04 14:32:45.682 [main] INFO  Application - Responding at http://0.0.0.0:8080
 ```
 
+
+## Server Structure
+<pre>
+<b>Ktor Server/</b>
+├── <b>plugins/</b>       <span style="color:gray;"># Ktor configuration (e.g. CORS, routing, serialization)</span>
+├── <b>routes/</b>        <span style="color:gray;"># API endpoints and route handlers</span>
+├── <b>models/</b>        <span style="color:gray;"># Data classes and request/response schemas</span>
+├── <b>repository/</b>    <span style="color:gray;"># Business logic and data management</span>
+├── <b>util/</b>          <span style="color:gray;"># Helper functions and constants</span>
+</pre>
+
